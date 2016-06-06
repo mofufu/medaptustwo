@@ -445,11 +445,11 @@ nav hr {
   margin-bottom: -20px;
 }
 .nav-sticky .logo-wide {
-  max-width: 80px;
+  max-width: 80px !important;
   bottom: 12px !important;
 }
 .nav-sticky .logo-square {
-  max-width: 80px;
+  max-width: 80px !important;
   bottom: 20px !important;
 }
 .nav-menu {
