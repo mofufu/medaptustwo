@@ -552,7 +552,7 @@ nav hr {
 }
 .overlay-bar .logo-light {
   display: block;
-  max-width: 80px !important;
+  
 }
 .overlay-bar .utility-menu span {
   color: #fff;
@@ -649,6 +649,7 @@ nav hr {
   display: none;
 }
 .overlay-bar.nav-sticky .logo-dark {
+  max-width: 80px !important;
   display: block;
 }
 .overlay-bar.nav-sticky .menu li a {
