@@ -184,21 +184,11 @@
 			
 			
 			
-				<div class="container">
-				<div class="row">
-					
-				<div class="col-md-4 col-sm-12">
-				<div id="myStat" data-dimension="250" data-text="35%" data-info="New Clients" data-width="30" data-fontsize="38" data-percent="35" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
-				</div>
-			
-				<div class="col-md-4 col-sm-12">
-				<div id="myStat2" data-dimension="250" data-text="35%" data-info="New Clients" data-width="30" data-fontsize="38" data-percent="35" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
-				</div>
-					<div class="col-md-4 col-sm-12">
-				<div id="myStat3" data-dimension="250" data-text="35%" data-info="New Clients" data-width="30" data-fontsize="38" data-percent="35" data-fgcolor="#7ea568" data-bgcolor="#eee" data-type="half" data-fill="#ddd"></div>
-				</div>
-				</div>
-				</div>
+		<div class="row">
+    <div class="col-lg-2">
+        <div id="test-circle"></div>
+    </div>
+	</div>
 			
  
 			
@@ -325,13 +315,16 @@
   			 $("#footer").load("footer.html"); 
 		</script>
 		
-		<script>
-			$( document ).ready(function() {
-			$('#myStat').circliful();
-			$('#myStat2').circliful();
-			$('#myStat3').circliful();
-			 });
-		</script>
+<script>
+$( document ).ready(function() {
+        $("#test-circle").circliful({
+        animationStep: 5,
+        foregroundBorderWidth: 5,
+        backgroundBorderWidth: 15,
+        percent: 14
+    });
+    });
+</script>
 		
 
 
