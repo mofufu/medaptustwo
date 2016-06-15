@@ -148,8 +148,8 @@ $(document).ready(function(){
 
 	// Slider Initializations
 	
-	$('.hero-slider').flexslider({});
-	$('.image-slider').flexslider({ animation: "slide"});
+	$('.hero-slider').flexslider({slideshowSpeed: 8000 });
+	$('.image-slider').flexslider({ slideshowSpeed: 8000, animation: "slide"});
 	$('.testimonials-slider').flexslider({ directionNav: false });
 	
 	// Slide Sizes
