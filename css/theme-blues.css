@@ -1869,7 +1869,7 @@ img.phone-portrait {
   padding: 0px;
 }
 .blog-snippet-3:nth-child(even) {
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 .blog-snippet-3 {
   padding-top: 10px;
@@ -1905,7 +1905,7 @@ blockquote {
   margin-bottom: 24px;
 }
 .article-single {
-  background: #f4f4f4 !important;
+  background: #fff !important;
 }
 .article-body p.lead {
   font-size: 20px;
@@ -2725,7 +2725,7 @@ footer.social .sub a {
   font-weight: 600;
 }
 footer.details {
-  background: #fff;
+  background: #f4f4f4;
 }
 footer.details .logo {
   margin-bottom: 54px;
