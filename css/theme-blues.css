@@ -2290,7 +2290,7 @@ input[type="submit"] {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
   min-width: 155px;
-  border-radius: 25px;
+  border-radius: 2px;
   display: inline-block;
   padding: 14px 28px 13px 28px;
   line-height: 1;
