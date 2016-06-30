@@ -2171,7 +2171,7 @@ blockquote {
 }
 .form-contact .inputs-wrapper {
   border: 2px solid rgba(0, 0, 0, 0.2);
-  border-radius: 25px;
+  border-radius: 2px;
   margin-bottom: 24px;
 }
 .form-contact input:focus,
@@ -2242,7 +2242,7 @@ blockquote {
 }
 .form-loading {
   border: 3px solid rgba(0, 0, 0, 0.2);
-  border-radius: 30px;
+  border-radius: 2px;
   height: 30px;
   left: 50%;
   margin: -15px 0 0 -15px;
