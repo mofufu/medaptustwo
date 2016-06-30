@@ -271,6 +271,7 @@ section.pad-large {
 }
 section.duplicatable-content {
   padding-bottom: 40px;
+  background: #fff;
 }
 section:nth-of-type(odd) {
   background: #f4f4f4;
