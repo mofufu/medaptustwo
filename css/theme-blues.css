@@ -591,6 +591,7 @@ nav hr {
 .nav-sticky {
   position: fixed !important;
   top: 0;
+  border-bottom: thick solid #f4f4f4;
 }
 .nav-sticky .logo {
   bottom: 12px;
