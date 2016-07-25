@@ -28,7 +28,7 @@ Main Components
   position: relative;
   height: 100px;
   width: 90%;
-  max-width: 920px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-wrapper {
@@ -262,7 +262,7 @@ Main Components
   animation-direction: reverse;
 }
 .cd-horizontal-timeline .events-content li > * {
-  max-width: 920px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-content h2 {
