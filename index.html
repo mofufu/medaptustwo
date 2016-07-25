@@ -85,100 +85,44 @@
 				</div>
 			</header>
 			
-			<section class="duplicatable-content">
+	<section class="cd-horizontal-timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+					<li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
+					<!-- other dates here -->
+				</ol>
+ 
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
 			
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<h1>Services & Products</h1>
-						</div>
-					</div>
-		
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-genius"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Enroll</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-linegraph"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Assign</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-tools-2"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Document</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div><div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-tools-2"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Collaborate</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div><div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-tools-2"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Manage</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-desktop"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Analyze</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			
-			</section>
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+ 
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="16/01/2014">
+				<h2>Horizontal Timeline</h2>
+				<em>January 16th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+ 
+			<li data-date="28/02/2014">
+				<!-- event description here -->
+			</li>
+ 
+			<!-- other descriptions here -->
+		</ol>
+	</div> <!-- .events-content -->
+</section>
 			
 					<section style="padding-top:-40px">	
 		<div class="container">	
@@ -340,6 +284,7 @@
         <script src="js/jquery.countdown.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/jquery.circliful.min.js"></script>
+        <script src="js/jquery.main.js"></script>
         <script> 
 			 $("#header").load("header2.html"); 
   			 $("#footer").load("footer.html"); 
