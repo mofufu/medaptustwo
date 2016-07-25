@@ -138,9 +138,7 @@ Main Components
   border-color: #7b9d6f;
 }
 @media only screen and (min-width: 1100px) {
-  .cd-horizontal-timeline {
-    margin: 6em auto;
-  }
+
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
     content: 'desktop';
@@ -215,7 +213,7 @@ Main Components
 .cd-horizontal-timeline .events-content {
   position: relative;
   width: 100%;
-  margin: 2em 0;
+
   overflow: hidden;
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
