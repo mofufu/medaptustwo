@@ -138,7 +138,7 @@ img {
 h1 {
   font-size: 32px;
   line-height: 44px;
-  margin-bottom: 38px;
+  margin-bottom: 48px;
 }
 h2 {
   font-size: 28px;
@@ -271,7 +271,6 @@ section.pad-large {
 }
 section.duplicatable-content {
   padding-bottom: 40px;
-  background: #fff;
 }
 section:nth-of-type(odd) {
   background: #f4f4f4;
@@ -551,7 +550,6 @@ nav hr {
 }
 .overlay-bar .logo-light {
   display: block;
-  
 }
 .overlay-bar .utility-menu span {
   color: #fff;
@@ -589,10 +587,9 @@ nav hr {
 .nav-sticky {
   position: fixed !important;
   top: 0;
-  border-bottom: thick solid #f4f4f4;
 }
 .nav-sticky .logo {
-  bottom: 12px;
+  bottom: 5px;
 }
 .nav-sticky hr {
   display: none !important;
@@ -649,7 +646,6 @@ nav hr {
   display: none;
 }
 .overlay-bar.nav-sticky .logo-dark {
-  max-width: 80px !important;
   display: block;
 }
 .overlay-bar.nav-sticky .menu li a {
@@ -878,7 +874,7 @@ header .btn:last-child {
   right: 1px;
 }
 header.title {
-  height: 380px;
+  height: 565px;
   position: relative;
   overflow: hidden;
 }
@@ -1619,7 +1615,7 @@ img.phone-portrait {
   color: #fff;
   min-width: 400px;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 24px;
   position: relative;
   top: 4px;
 }
@@ -1869,11 +1865,11 @@ img.phone-portrait {
   padding: 0px;
 }
 .blog-snippet-3:nth-child(even) {
-  background-color: #fff;
+  background-color: #f4f4f4;
 }
 .blog-snippet-3 {
-  padding-top: 10px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .blog-snippet-3 h1 {
   margin-bottom: 16px;
@@ -1905,7 +1901,7 @@ blockquote {
   margin-bottom: 24px;
 }
 .article-single {
-  background: #fff !important;
+  background: #f4f4f4 !important;
 }
 .article-body p.lead {
   font-size: 20px;
@@ -1938,7 +1934,7 @@ blockquote {
 }
 .article-body {
   padding-bottom: 64px;
-
+  border-bottom: 1px solid #ddd;
 }
 .author-details {
   text-align: center;
@@ -2171,7 +2167,7 @@ blockquote {
 }
 .form-contact .inputs-wrapper {
   border: 2px solid rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
+  border-radius: 25px;
   margin-bottom: 24px;
 }
 .form-contact input:focus,
@@ -2242,7 +2238,7 @@ blockquote {
 }
 .form-loading {
   border: 3px solid rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
+  border-radius: 30px;
   height: 30px;
   left: 50%;
   margin: -15px 0 0 -15px;
@@ -2290,7 +2286,7 @@ input[type="submit"] {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
   min-width: 155px;
-  border-radius: 2px;
+  border-radius: 25px;
   display: inline-block;
   padding: 14px 28px 13px 28px;
   line-height: 1;
@@ -2689,8 +2685,8 @@ iframe.mail-list-form {
   display: none !important;
 }
 footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 footer.social h1 {
   margin-bottom: 24px;
@@ -2728,7 +2724,7 @@ footer.details {
   background: #f4f4f4;
 }
 footer.details .logo {
-  margin-bottom: 38px;
+  margin-bottom: 54px;
   max-width: 80px;
   margin-top: 12px;
 }
