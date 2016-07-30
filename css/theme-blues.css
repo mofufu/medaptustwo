@@ -551,6 +551,7 @@ nav hr {
 }
 .overlay-bar .logo-light {
   display: block;
+  
 }
 .overlay-bar .utility-menu span {
   color: #fff;
@@ -588,9 +589,10 @@ nav hr {
 .nav-sticky {
   position: fixed !important;
   top: 0;
+  border-bottom: thick solid #f4f4f4;
 }
 .nav-sticky .logo {
-  bottom: 5px;
+  bottom: 12px;
 }
 .nav-sticky hr {
   display: none !important;
@@ -647,6 +649,7 @@ nav hr {
   display: none;
 }
 .overlay-bar.nav-sticky .logo-dark {
+  max-width: 80px !important;
   display: block;
 }
 .overlay-bar.nav-sticky .menu li a {
@@ -2814,7 +2817,7 @@ footer.short-2 .contact-action:hover {
     display: none;
   }
   nav {
-    max-height: 80px;
+    max-height: 120px;
     overflow: hidden;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
