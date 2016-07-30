@@ -430,9 +430,9 @@ nav hr {
   top: 0;
 }
 .top-bar .logo {
-  max-width: 120px;
+  max-width: 80px;
   position: relative;
-  bottom: 22px;
+  bottom: 7px;
 }
 .logo.logo-wide {
   max-width: 140px;
@@ -446,11 +446,9 @@ nav hr {
   margin-bottom: -20px;
 }
 .nav-sticky .logo-wide {
-  max-width: 80px !important;
   bottom: 12px !important;
 }
 .nav-sticky .logo-square {
-  max-width: 80px !important;
   bottom: 20px !important;
 }
 .nav-menu {
