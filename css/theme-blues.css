@@ -2817,7 +2817,7 @@ footer.short-2 .contact-action:hover {
     display: none;
   }
   nav {
-    max-height: 120px;
+    max-height: 80px;
     overflow: hidden;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
