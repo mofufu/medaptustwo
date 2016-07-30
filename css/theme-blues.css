@@ -551,7 +551,6 @@ nav hr {
 }
 .overlay-bar .logo-light {
   display: block;
-  
 }
 .overlay-bar .utility-menu span {
   color: #fff;
@@ -589,10 +588,9 @@ nav hr {
 .nav-sticky {
   position: fixed !important;
   top: 0;
-  border-bottom: thick solid #f4f4f4;
 }
 .nav-sticky .logo {
-  bottom: 12px;
+  bottom: 5px;
 }
 .nav-sticky hr {
   display: none !important;
@@ -649,7 +647,6 @@ nav hr {
   display: none;
 }
 .overlay-bar.nav-sticky .logo-dark {
-  max-width: 80px !important;
   display: block;
 }
 .overlay-bar.nav-sticky .menu li a {
