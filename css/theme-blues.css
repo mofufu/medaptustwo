@@ -3870,6 +3870,7 @@ footer.short-2 .contact-action:hover {
   .simple-bar .logo {
     max-height: 30px;
     bottom: 30px;
+    padding-bottom: 10px;
   }
   .simple-bar .menu li a {
     padding-bottom: 0px;
