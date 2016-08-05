@@ -1,16 +1,17 @@
 						<div class="sidebar-widget">
 							<h5>Request Information</h5><br>
 							<div class="form-wrapper clearfix">
-								<form class="form-contact email-form">
+								<form data-forge-name="Care Collaboration" class="form-contact">
 									<div class="inputs-wrapper">
-										<input class="form-name validate-required" type="text" placeholder="Your Name" name="name">
-										<input class="form-email validate-required validate-email" type="text" name="email" placeholder="Your Email Address">
-										<textarea class="form-message validate-required" name="message" placeholder="Your Message"></textarea>
+										<input name="name" class="form-name validate-required" data-forge-name="Name" type="text" placeholder="Your Name">
+										<input name="email" class="form-email validate-required" data-forge-name="email" type="text" placeholder="Your Email Address">
+										<input name="title" class="form-title validate-required" data-forge-name="Title" type="text" placeholder="Your Title">
+										<input name="organization" class="form-organization validate-required" data-forge-name="Organization" type="text" placeholder="Your Organization">
+										<input name="phone" class="form-phone validate-required" data-forge-name="Phone" type="text" placeholder="Your Phone">
+										<textarea name="message" class="form-message validate-required" data-forge-name="Message" placeholder="Your Message"></textarea>
 									</div>
-									<input type="submit" class="send-form" value="Send Form">
-									<div class="form-success">
-										<span class="text-white">Message sent - Thanks for your enquiry</span>
-									</div>
+									<input class="send-form" type="submit" value="Send Form">
+									
 									<div class="form-error">
 										<span class="text-white">Please complete all fields correctly</span>
 									</div>
